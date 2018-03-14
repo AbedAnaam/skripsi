@@ -1,0 +1,21 @@
+nav.navbar-material {
+  background: #4db6ac;
+  border: none;
+  box-shadow: none;
+}
+.navbar-material .nav-wrapper {
+  margin-left: 20px;
+}
+
+.navbar-material .nav-wrapper .brand-logo img {
+  height: 60px;
+  margin-top: 2px; 
+}
+.navbar-material .nav-wrapper .button-collapse i {
+  color: black;
+}
+@media (max-width: 600px) {
+  .navbar-material .nav-wrapper .brand-logo img {
+    height: 56px;
+  }
+}
